@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "starlight-modus",
+  "version": "1.0.0",
+  "description": "Modus theme css variables for Starlight",
+  "main": "modus.css",
+  "scripts": {},
+  "keywords": [
+    "Starlight",
+    "Modus"
+  ],
+  "author": "Jeff Bendixsen",
+  "license": "ISC"
+}

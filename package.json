@@ -1,19 +1,15 @@
 {
   "name": "starlight-template",
-  "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "tccp:dev": "pnpm --filter tccp-docs dev"
   },
-  "dependencies": {
-    "@astrojs/starlight": "^0.17.2",
-    "astro": "^4.2.1",
-    "sharp": "^0.32.5",
-    "@astrojs/check": "^0.4.1",
-    "typescript": "^5.3.3"
-  }
+  "keywords": [
+    "starlight",
+    "template" 
+  ],
+  "author": "Jeff Bendixsen",
+  "license": "ISC"
 }

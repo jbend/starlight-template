@@ -5,10 +5,11 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Trimble Documentation',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
+			customCss: ["starlight-modus"],
 			sidebar: [
 				{
 					label: 'Guides',
