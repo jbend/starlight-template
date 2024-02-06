@@ -7,7 +7,7 @@ export default defineConfig({
 		starlight({
 			title: 'Trimble Documentation',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/jbend/starlight-template',
 			},
 			customCss: ["starlight-modus"],
 			sidebar: [
