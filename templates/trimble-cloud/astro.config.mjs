@@ -6,6 +6,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Trimble Documentation',
+			logo: {
+				src: './src/assets/trimble-globe.svg',
+			},
 			social: {
 				github: 'https://github.com/jbend/starlight-template',
 			},
