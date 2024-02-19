@@ -1,6 +1,6 @@
 # Astro documentation template
 
-[Astro](astro.build) [Starlight](https://github.com/withastro/starlight) template.
+[Astro](https://astro.build/) [Starlight](https://github.com/withastro/starlight) template.
 
 
 ## Usage 
