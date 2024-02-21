@@ -15,6 +15,13 @@ export default defineConfig({
 			customCss: ["starlight-modus"],
 			sidebar: [
 				{
+					label: 'Concepts',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Example Concepts', link: '/concepts/example/' },
+					]
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
