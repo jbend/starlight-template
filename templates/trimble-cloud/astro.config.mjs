@@ -5,9 +5,10 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Trimble Documentation',
+			title: 'Trimble Cloud Documentation',
 			logo: {
-				src: './src/assets/trimble-globe.svg',
+				src: './src/assets/trimble-platform-logo.svg',
+				
 			},
 			social: {
 				github: 'https://github.com/jbend/starlight-template',
@@ -16,21 +17,18 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Concepts',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Concepts', link: '/concepts/example/' },
-					]
+					collapsed: false,
+					autogenerate: { directory: 'concepts', collapsed: true },
 				},
 				{
 					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					collapsed: true,
+					autogenerate: { directory: 'guides', collapsed: true },
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					collapsed: true,
+					autogenerate: { directory: 'reference', collapsed: true },
 				},
 			],
 		}),
