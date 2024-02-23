@@ -11,6 +11,21 @@
 	--sl-color-gray-5: #464b52; /* grey - 8 */
 	--sl-color-gray-6: #252a2e; /* trimble gray */
 	--sl-color-black:  #171c1e; /* gray - 10 */
+
+	.action {
+		background-color:	#217cbb;
+		border-radius:	4px;
+		/* border: 1px solid #019aeb; */
+		border-width:	1px;
+		color:	#ffffff;
+		font-size: 1rem;
+		font-weight: 600;
+		height:	3rem;
+		padding:	0.5rem 1rem;
+		width:	12rem;
+		text-align:	center;
+	}
+
 }
 /* Light mode colors. */
 :root[data-theme='light'] {
